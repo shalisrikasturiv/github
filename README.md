@@ -11,3 +11,7 @@ This Folder contains:
 1. The "Before Cleaning Percentage.csv" file which will have the percentage of na values before cleaning the census data.
 2. The "After Cleaning Percentage.csv" file which will have the percentage of na values after cleaning the census data.
 2. The "Before and After Comparison.csv" file which will have the percentage of na values before and after cleaning the census data.
+
+Presentation
+This Folder contains:
+1. Then "Shalisri Kasturi V - Census Data Standardization and Analysis Pipeline (DE-WE-E-B2).pptx" presentation for the project.
