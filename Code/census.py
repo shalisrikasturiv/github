@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # Read the csv file
-df=pd.read_csv('census_2011.csv',delimiter=',',header=None,skiprows=1)
+df=pd.read_csv('C:/Users/shali/Documents/Project/github/Code/census_2011.csv',delimiter=',',header=None,skiprows=1)
 
 # Task 1: Rename the Column names
 # For uniformity in the datasets and taking into consideration the census year, we need to rename some columns
@@ -24,7 +24,7 @@ print("Task 2 (Rename the State/UT names) completed successfully!")
 # In 2019 Ladakh was formed after it split from Jammu and Kashmir, which included the districts Leh and Kargil. Rename the State/UT From “Jammu and Kashmir” to “Ladakh” for the given district
 
 # Copy the given Telangana disctricts to a txt file and read it
-df_telangana=pd.read_csv('Telangana.txt',header=None)
+df_telangana=pd.read_csv('C:/Users/shali/Documents/Project/github/Code/Telangana.txt',header=None)
 
 # Assign the column name
 df_telangana.columns=['District']
@@ -35,7 +35,7 @@ print("Rename State/UT the From “Andhra Pradesh” to “Telangana” complete
 
 
 # Copy the given Ladakh disctricts to a txt file and read it
-df_Ladakh=pd.read_csv('Leh(Ladakh).txt',header=None)
+df_Ladakh=pd.read_csv('C:/Users/shali/Documents/Project/github/Code/Leh(Ladakh).txt',header=None)
 
 # Assign the column name
 df_Ladakh.columns=['District']
