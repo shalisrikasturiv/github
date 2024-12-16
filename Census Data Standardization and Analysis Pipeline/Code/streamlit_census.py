@@ -99,19 +99,19 @@ elif option_selected == "15. What is the distribution of different types of latr
     st.title("Latrine Facilities")
 
 elif option_selected == "16. How many households have access to drinking water sources near the premises in each state?":
-    query_selected="Select State_UT, sum(Location_of_water_source_Near_the_premises_House) from census group by State_UT;"
+    query_selected="Select State_UT, sum(Location_of_water_source_Near_the_premises_House) as Drinking_water_near_the_premise from census group by State_UT;"
     st.title("Drink water source near the premises")
 
 elif option_selected == "17. What is the average household income distribution in each state based on the power parity categories?":
-    query_selected="select District, (sum(Workers)/sum(Population))*100 as workers_percentage from census group by District"
+    query_selected="select state_ut, (sum(Power_Parity_Less_than_Rs_45000)/sum(House))*100 as less_than_45k,(sum(Power_Parity_Rs_45000_150000)/sum(House))*100 as 45k_150k,(sum(Power_Parity_Rs_150000_330000)/sum(House))*100 as 150k_330k,(sum(Power_Parity_Rs_330000_545000)/sum(House))*100 as 330k_545k,(sum(Power_Parity_Above_Rs_545000)/sum(House))*100 as above_545k from census group by state_ut;"
     st.title("Average household income distribution")
 
 elif option_selected == "18. What is the percentage of married couples with different household sizes in each state?":
-    query_selected="select District, (sum(Workers)/sum(Population))*100 as workers_percentage from census group by District"
+    query_selected="select state_ut,(sum(Married_couples_1_House)/sum(Married_couples_1_House+Married_couples_2_House+Married_couples_3_House+Married_couples_3_or_more_House))*100 as 1_household,(sum(Married_couples_2_House)/sum(Married_couples_1_House+Married_couples_2_House+Married_couples_3_House+Married_couples_3_or_more_House))*100 as 2_household,(sum(Married_couples_3_House)/sum(Married_couples_1_House+Married_couples_2_House+Married_couples_3_House+Married_couples_3_or_more_House))*100 as 3_household,(sum(Married_couples_4_House)/sum(Married_couples_1_House+Married_couples_2_House+Married_couples_3_House+Married_couples_3_or_more_House))*100 as 4_household,(sum(Married_couples_5__House)/sum(Married_couples_1_House+Married_couples_2_House+Married_couples_3_House+Married_couples_3_or_more_House))*100 as 5_household from census group by state_ut;"
     st.title("Percentage of married couple with different household sizes")
 
 elif option_selected == "19. How many households fall below the poverty line in each state based on the power parity categories?":
-    query_selected="select District, (sum(Workers)/sum(Population))*100 as workers_percentage from census group by District"
+    query_selected="select state_ut, (sum(Power_Parity_Less_than_Rs_45000)/sum(house))*100 as households_below_poverty_line from census group by state_ut;"
     st.title("Households below poverty line")
 
 elif option_selected == "20. What is the overall literacy rate (percentage of literate population) in each state?":
