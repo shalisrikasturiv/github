@@ -1,3 +1,5 @@
+Census Data Standardization and Analysis Pipeline - This is the project folder inside which the code and the related files are present.
+
 Code
 This folder contains:
 1. The python code "census.py" which will perform the Data cleaning, Uploading the data to MongoDB, loading to MySQL from MongoDB.
