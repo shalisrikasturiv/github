@@ -87,7 +87,7 @@ elif option_selected == "12. How many households have a latrine facility within 
     st.title("Latrine Facitlity within each state")
     	
 elif option_selected == "13. What is the average household size in each state?":
-    query_selected="select District, (sum(Workers)/sum(Population))*100 as workers_percentage from census group by District"
+    query_selected="select state_ut, sum(Population)/sum(Household_size_1_to_2_persons+Household_size_3_to_5_persons_House+Household_size_6_8_persons_House+Household_size_9_persons_and_above_House) as Average_household_size from census group by state_ut;"
     st.title("Avg Household size")
 	
 elif option_selected == "14. How many households are owned versus rented in each state?":
