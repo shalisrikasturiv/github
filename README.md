@@ -1,4 +1,4 @@
-Census Data Standardization and Analysis Pipeline - This is the project folder inside which the code and the related files are present.
+**Census Data Standardization and Analysis Pipeline - This is the project folder inside which the code and the related files are present.**
 
 Code
 This folder contains:
