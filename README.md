@@ -1,6 +1,7 @@
 **Mini Project 1**
 **Census Data Standardization and Analysis Pipeline** - This is the project folder inside which the code and the related files are present.
 
+
 ***Code***
 This folder contains:
 1. The python code ***"census.py"*** which will perform the Data cleaning, Uploading the data to MongoDB, loading to MySQL from MongoDB.
@@ -20,6 +21,7 @@ This Folder contains:
 1. The ***"Shalisri Kasturi V - Census Data Standardization and Analysis Pipeline (DE-WE-E-B2).pptx"*** presentation for the project.
 
 
+
 **Mini Project 2**
 **A Comprehensive ETL Workflow with Python for Data Engineers** - This is the project folder inside which the code and the related files are present.
 
@@ -33,6 +35,6 @@ This folder contains:
 This folder contains:
 All the source csv, json and xml files required for the ETL process.
 
-Presentation
+***Presentation***
 This Folder contains:
 1. The ***"Shalisri Kasturi V - A Comprehensive ETL Workflow with Python for Data Engineers (DE-WE-E-B2).pptx"*** presentation for the project.
