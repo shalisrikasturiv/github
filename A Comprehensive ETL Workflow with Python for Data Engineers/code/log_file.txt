@@ -1,0 +1,6 @@
+2025-01-04 16:34:01,484 - INFO - Extraction phase started
+2025-01-04 16:34:01,496 - INFO - Extraction Phase completed in 0:00:00.011970
+2025-01-04 16:34:01,496 - INFO - Transformation phase started
+2025-01-04 16:34:01,522 - INFO - Transformation Phase completed in 0:00:00.026037
+2025-01-04 16:34:01,522 - INFO - Loading phase started
+2025-01-04 16:34:01,529 - INFO - Loading Phase completed in 0:00:00.006425
