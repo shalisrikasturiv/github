@@ -1,4 +1,4 @@
-**Mini Project 1**
+**Mini Project 1** : 
 **Census Data Standardization and Analysis Pipeline** - This is the project folder inside which the code and the related files are present.
 
 
@@ -22,7 +22,7 @@ This Folder contains:
 
 
 
-**Mini Project 2**
+**Mini Project 2** : 
 **A Comprehensive ETL Workflow with Python for Data Engineers** - This is the project folder inside which the code and the related files are present.
 
 ***code***
