@@ -21,9 +21,10 @@ logging.info("Extraction phase started")
 start_time = datetime.now()
 
 # Identify all the csv, json and xml files in the folder
-csvfiles=glob.glob("c:/Users/shali/Documents/Project/github-1/A Comprehensive ETL Workflow with Python for Data Engineers/source/*.csv")
-jsonfiles=glob.glob("c:/Users/shali/Documents/Project/github-1/A Comprehensive ETL Workflow with Python for Data Engineers/source/*.json")
-xmlfiles=glob.glob("c:/Users/shali/Documents/Project/github-1/A Comprehensive ETL Workflow with Python for Data Engineers/source/*.xml")
+csvfiles=glob.glob("c:/Users/shali/Documents/Project/github-1/A Comprehensive ETL Workflow with Python for Data Engineers/source files/*.csv")
+jsonfiles=glob.glob("c:/Users/shali/Documents/Project/github-1/A Comprehensive ETL Workflow with Python for Data Engineers/source files/*.json")
+xmlfiles=glob.glob("c:/Users/shali/Documents/Project/github-1/A Comprehensive ETL Workflow with Python for Data Engineers/source files/*.xml")
+
 
 # Declare an empty list
 df_list=[]

@@ -1,6 +1,10 @@
-2025-01-04 16:34:01,484 - INFO - Extraction phase started
-2025-01-04 16:34:01,496 - INFO - Extraction Phase completed in 0:00:00.011970
-2025-01-04 16:34:01,496 - INFO - Transformation phase started
-2025-01-04 16:34:01,522 - INFO - Transformation Phase completed in 0:00:00.026037
-2025-01-04 16:34:01,522 - INFO - Loading phase started
-2025-01-04 16:34:01,529 - INFO - Loading Phase completed in 0:00:00.006425
+2025-01-06 11:53:27,382 - INFO - Extraction phase started
+2025-01-06 11:54:06,904 - INFO - Extraction phase started
+2025-01-06 11:55:32,086 - INFO - Extraction phase started
+2025-01-06 11:57:10,011 - INFO - Extraction phase started
+2025-01-06 12:04:05,174 - INFO - Extraction phase started
+2025-01-06 12:04:05,256 - INFO - Extraction Phase completed in 0:00:00.081677
+2025-01-06 12:04:05,256 - INFO - Transformation phase started
+2025-01-06 12:04:05,262 - INFO - Transformation Phase completed in 0:00:00.005139
+2025-01-06 12:04:05,262 - INFO - Loading phase started
+2025-01-06 12:04:05,268 - INFO - Loading Phase completed in 0:00:00.006246
