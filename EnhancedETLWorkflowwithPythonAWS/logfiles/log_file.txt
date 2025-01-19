@@ -1,61 +1,62 @@
-2025-01-19 12:16:15,657 - INFO - AWS Session has been setup successfully
-2025-01-19 12:16:15,657 - INFO - Region is : ap-south-1
-2025-01-19 12:16:15,657 - INFO - Bucket Name is : shalisrikasturiv-etl-project-bucket
-2025-01-19 12:16:15,657 - INFO - Source Folder Name is : source_files/
-2025-01-19 12:16:15,657 - INFO - Transform Folder Name is : transform_files/
-2025-01-19 12:16:15,657 - INFO - Local Source Folder Name is : C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/sourcefiles
-2025-01-19 12:16:15,657 - INFO - Local Download Folder Name is : C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/processfiles
-2025-01-19 12:16:15,657 - INFO - Local Transform Folder Name is : C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/transformfiles
-2025-01-19 12:16:16,586 - INFO - The bucket 'shalisrikasturiv-etl-project-bucket' already exists.
-2025-01-19 12:16:16,685 - INFO - The folder 'source_files/' alredy exists in 'shalisrikasturiv-etl-project-bucket' bucket
-2025-01-19 12:16:16,686 - INFO - Uploading C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/sourcefiles\source.zip to s3://shalisrikasturiv-etl-project-bucket/source_files/source.zip
-2025-01-19 12:16:17,443 - INFO - Successfully uploaded source.zip
-2025-01-19 12:16:17,443 - INFO - Uploading C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/sourcefiles\source1.csv to s3://shalisrikasturiv-etl-project-bucket/source_files/source1.csv
-2025-01-19 12:16:17,540 - INFO - Successfully uploaded source1.csv
-2025-01-19 12:16:17,540 - INFO - Uploading C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/sourcefiles\source1.json to s3://shalisrikasturiv-etl-project-bucket/source_files/source1.json
-2025-01-19 12:16:17,643 - INFO - Successfully uploaded source1.json
-2025-01-19 12:16:17,643 - INFO - Uploading C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/sourcefiles\source1.xml to s3://shalisrikasturiv-etl-project-bucket/source_files/source1.xml
-2025-01-19 12:16:17,911 - INFO - Successfully uploaded source1.xml
-2025-01-19 12:16:17,912 - INFO - Uploading C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/sourcefiles\source2.csv to s3://shalisrikasturiv-etl-project-bucket/source_files/source2.csv
-2025-01-19 12:16:18,116 - INFO - Successfully uploaded source2.csv
-2025-01-19 12:16:18,117 - INFO - Uploading C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/sourcefiles\source2.json to s3://shalisrikasturiv-etl-project-bucket/source_files/source2.json
-2025-01-19 12:16:18,321 - INFO - Successfully uploaded source2.json
-2025-01-19 12:16:18,321 - INFO - Uploading C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/sourcefiles\source2.xml to s3://shalisrikasturiv-etl-project-bucket/source_files/source2.xml
-2025-01-19 12:16:18,472 - INFO - Successfully uploaded source2.xml
-2025-01-19 12:16:18,472 - INFO - Uploading C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/sourcefiles\source3.csv to s3://shalisrikasturiv-etl-project-bucket/source_files/source3.csv
-2025-01-19 12:16:18,625 - INFO - Successfully uploaded source3.csv
-2025-01-19 12:16:18,625 - INFO - Uploading C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/sourcefiles\source3.json to s3://shalisrikasturiv-etl-project-bucket/source_files/source3.json
-2025-01-19 12:16:18,843 - INFO - Successfully uploaded source3.json
-2025-01-19 12:16:18,843 - INFO - Uploading C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/sourcefiles\source3.xml to s3://shalisrikasturiv-etl-project-bucket/source_files/source3.xml
-2025-01-19 12:16:19,065 - INFO - Successfully uploaded source3.xml
-2025-01-19 12:16:19,318 - INFO - Downloaded source_files/source.zip to C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/processfiles\source.zip
-2025-01-19 12:16:19,552 - INFO - Downloaded source_files/source1.csv to C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/processfiles\source1.csv
-2025-01-19 12:16:19,760 - INFO - Downloaded source_files/source1.json to C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/processfiles\source1.json
-2025-01-19 12:16:19,962 - INFO - Downloaded source_files/source1.xml to C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/processfiles\source1.xml
-2025-01-19 12:16:20,169 - INFO - Downloaded source_files/source2.csv to C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/processfiles\source2.csv
-2025-01-19 12:16:20,333 - INFO - Downloaded source_files/source2.json to C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/processfiles\source2.json
-2025-01-19 12:16:20,681 - INFO - Downloaded source_files/source2.xml to C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/processfiles\source2.xml
-2025-01-19 12:16:20,867 - INFO - Downloaded source_files/source3.csv to C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/processfiles\source3.csv
-2025-01-19 12:16:21,090 - INFO - Downloaded source_files/source3.json to C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/processfiles\source3.json
-2025-01-19 12:16:21,293 - INFO - Downloaded source_files/source3.xml to C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/processfiles\source3.xml
-2025-01-19 12:16:21,293 - INFO - Extraction phase started
-2025-01-19 12:16:21,362 - INFO - Extraction Phase completed in 0:00:00.068546
-2025-01-19 12:16:21,362 - INFO - Transformation phase started
-2025-01-19 12:16:21,364 - INFO - Transformation Phase completed in 0:00:00.002293
-2025-01-19 12:16:21,365 - INFO - Loading phase started
-2025-01-19 12:16:21,368 - INFO - Loading Phase completed in 0:00:00.003568
-2025-01-19 12:16:21,934 - INFO -  The folder 'transform_files/' alredy exists in 'shalisrikasturiv-etl-project-bucket' bucket
-2025-01-19 12:16:21,934 - INFO - Uploading C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/transformfiles\transformed_data.csv to s3://shalisrikasturiv-etl-project-bucket/transform_files/transformed_data.csv
-2025-01-19 12:16:22,621 - INFO - Successfully uploaded transformed_data.csv
-2025-01-19 12:16:22,667 - INFO - Establised RDS connection successfully
-2025-01-19 12:16:22,667 - INFO - Checking if the RDS instance already exists...
-2025-01-19 12:16:23,670 - INFO - RDS Instance mydbinstance already exists
-2025-01-19 12:16:23,953 - INFO - Transformed file name is transform_files/transformed_data.csv
-2025-01-19 12:16:24,056 - INFO - 39 records are present in transform_files/transformed_data.csv file
-2025-01-19 12:16:24,362 - INFO - RDS MySQL connection establised successfully
-2025-01-19 12:16:24,565 - INFO - Table Height_Weight created successfully
-2025-01-19 12:16:27,249 - INFO - 39 records loaded to Height_Weight table
-2025-01-19 12:16:27,249 - INFO - Record count matched between transformed file and table record count
-2025-01-19 12:16:27,435 - INFO - Folder 'log_files/' created successfully in 'shalisrikasturiv-etl-project-bucket' bucket
-2025-01-19 12:16:27,435 - INFO - Uploading C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/logfiles\log_file.txt to s3://shalisrikasturiv-etl-project-bucket/log_files/log_file.txt
-2025-01-19 12:16:27,640 - INFO - Successfully uploaded log_file.txt
+2025-01-19 17:39:00,413 - INFO - AWS Session has been setup successfully
+2025-01-19 17:39:00,413 - INFO - Region is : ap-south-1
+2025-01-19 17:39:00,413 - INFO - Bucket Name is : shalisrikasturiv-etl-project-bucket
+2025-01-19 17:39:00,413 - INFO - Source Folder Name is : source_files/
+2025-01-19 17:39:00,413 - INFO - Transform Folder Name is : transform_files/
+2025-01-19 17:39:00,413 - INFO - Local Source Folder Name is : C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/sourcefiles
+2025-01-19 17:39:00,413 - INFO - Local Download Folder Name is : C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/processfiles
+2025-01-19 17:39:00,413 - INFO - Local Transform Folder Name is : C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/transformfiles
+2025-01-19 17:39:00,431 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-01-19 17:39:01,377 - INFO - The bucket 'shalisrikasturiv-etl-project-bucket' already exists.
+2025-01-19 17:39:01,425 - INFO - The folder 'source_files/' alredy exists in 'shalisrikasturiv-etl-project-bucket' bucket
+2025-01-19 17:39:01,426 - INFO - Uploading C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/sourcefiles\source.zip to s3://shalisrikasturiv-etl-project-bucket/source_files/source.zip
+2025-01-19 17:39:01,906 - INFO - Successfully uploaded source.zip
+2025-01-19 17:39:01,907 - INFO - Uploading C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/sourcefiles\source1.csv to s3://shalisrikasturiv-etl-project-bucket/source_files/source1.csv
+2025-01-19 17:39:02,007 - INFO - Successfully uploaded source1.csv
+2025-01-19 17:39:02,007 - INFO - Uploading C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/sourcefiles\source1.json to s3://shalisrikasturiv-etl-project-bucket/source_files/source1.json
+2025-01-19 17:39:02,087 - INFO - Successfully uploaded source1.json
+2025-01-19 17:39:02,087 - INFO - Uploading C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/sourcefiles\source1.xml to s3://shalisrikasturiv-etl-project-bucket/source_files/source1.xml
+2025-01-19 17:39:02,179 - INFO - Successfully uploaded source1.xml
+2025-01-19 17:39:02,179 - INFO - Uploading C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/sourcefiles\source2.csv to s3://shalisrikasturiv-etl-project-bucket/source_files/source2.csv
+2025-01-19 17:39:02,255 - INFO - Successfully uploaded source2.csv
+2025-01-19 17:39:02,255 - INFO - Uploading C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/sourcefiles\source2.json to s3://shalisrikasturiv-etl-project-bucket/source_files/source2.json
+2025-01-19 17:39:02,335 - INFO - Successfully uploaded source2.json
+2025-01-19 17:39:02,336 - INFO - Uploading C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/sourcefiles\source2.xml to s3://shalisrikasturiv-etl-project-bucket/source_files/source2.xml
+2025-01-19 17:39:02,423 - INFO - Successfully uploaded source2.xml
+2025-01-19 17:39:02,424 - INFO - Uploading C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/sourcefiles\source3.csv to s3://shalisrikasturiv-etl-project-bucket/source_files/source3.csv
+2025-01-19 17:39:02,501 - INFO - Successfully uploaded source3.csv
+2025-01-19 17:39:02,502 - INFO - Uploading C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/sourcefiles\source3.json to s3://shalisrikasturiv-etl-project-bucket/source_files/source3.json
+2025-01-19 17:39:02,574 - INFO - Successfully uploaded source3.json
+2025-01-19 17:39:02,574 - INFO - Uploading C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/sourcefiles\source3.xml to s3://shalisrikasturiv-etl-project-bucket/source_files/source3.xml
+2025-01-19 17:39:02,663 - INFO - Successfully uploaded source3.xml
+2025-01-19 17:39:02,798 - INFO - Downloaded source_files/source.zip to C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/processfiles\source.zip
+2025-01-19 17:39:02,885 - INFO - Downloaded source_files/source1.csv to C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/processfiles\source1.csv
+2025-01-19 17:39:02,969 - INFO - Downloaded source_files/source1.json to C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/processfiles\source1.json
+2025-01-19 17:39:03,054 - INFO - Downloaded source_files/source1.xml to C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/processfiles\source1.xml
+2025-01-19 17:39:03,134 - INFO - Downloaded source_files/source2.csv to C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/processfiles\source2.csv
+2025-01-19 17:39:03,220 - INFO - Downloaded source_files/source2.json to C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/processfiles\source2.json
+2025-01-19 17:39:03,310 - INFO - Downloaded source_files/source2.xml to C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/processfiles\source2.xml
+2025-01-19 17:39:03,394 - INFO - Downloaded source_files/source3.csv to C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/processfiles\source3.csv
+2025-01-19 17:39:03,485 - INFO - Downloaded source_files/source3.json to C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/processfiles\source3.json
+2025-01-19 17:39:03,572 - INFO - Downloaded source_files/source3.xml to C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/processfiles\source3.xml
+2025-01-19 17:39:03,572 - INFO - Extraction phase started
+2025-01-19 17:39:03,636 - INFO - Extraction Phase completed in 0:00:00.063294
+2025-01-19 17:39:03,636 - INFO - Transformation phase started
+2025-01-19 17:39:03,638 - INFO - Transformation Phase completed in 0:00:00.001833
+2025-01-19 17:39:03,638 - INFO - Loading phase started
+2025-01-19 17:39:03,642 - INFO - Loading Phase completed in 0:00:00.003771
+2025-01-19 17:39:04,092 - INFO -  The folder 'transform_files/' alredy exists in 'shalisrikasturiv-etl-project-bucket' bucket
+2025-01-19 17:39:04,092 - INFO - Uploading C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/transformfiles\transformed_data.csv to s3://shalisrikasturiv-etl-project-bucket/transform_files/transformed_data.csv
+2025-01-19 17:39:04,542 - INFO - Successfully uploaded transformed_data.csv
+2025-01-19 17:39:04,603 - INFO - Establised RDS connection successfully
+2025-01-19 17:39:04,603 - INFO - Checking if the RDS instance already exists...
+2025-01-19 17:39:05,190 - INFO - RDS Instance mydbinstance already exists
+2025-01-19 17:39:05,399 - INFO - Transformed file name is transform_files/transformed_data.csv
+2025-01-19 17:39:05,448 - INFO - 39 records are present in transform_files/transformed_data.csv file
+2025-01-19 17:39:05,592 - INFO - RDS MySQL connection establised successfully
+2025-01-19 17:39:05,657 - INFO - Table Height_Weight created successfully
+2025-01-19 17:39:06,772 - INFO - 39 records loaded to Height_Weight table
+2025-01-19 17:39:06,773 - INFO - Record count matched between transformed file and table record count
+2025-01-19 17:39:07,244 - INFO -  The folder 'log_files/' alredy exists in 'shalisrikasturiv-etl-project-bucket' bucket
+2025-01-19 17:39:07,244 - INFO - Uploading C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/logfiles\log_file.txt to s3://shalisrikasturiv-etl-project-bucket/log_files/log_file.txt
+2025-01-19 17:39:07,736 - INFO - Successfully uploaded log_file.txt

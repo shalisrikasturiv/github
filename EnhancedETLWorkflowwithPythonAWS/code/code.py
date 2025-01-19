@@ -17,12 +17,7 @@ from io import StringIO  # in-memory file-like object for reading from S3
 #Enable logging to log_file.txt
 logging.basicConfig(filename='C:/Users/shali/Documents/Project/github/EnhancedETLWorkflowwithPythonAWS/logfiles/log_file.txt', level=logging.INFO,filemode='w',format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Configure AWS Credentials (can use AWS configure also in the terminal)
-boto3.setup_default_session(
-    aws_access_key_id='AKIASK5MCNKHS5YYIWNK',
-    aws_secret_access_key = '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',
-    region_name='ap-south-1'
-)
+
 logging.info("AWS Session has been setup successfully")
 
 # Declare the region and bucket name
