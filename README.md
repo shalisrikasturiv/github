@@ -38,3 +38,32 @@ All the source csv, json and xml files required for the ETL process.
 ***Presentation***
 This Folder contains:
 1. The ***"Shalisri Kasturi V - A Comprehensive ETL Workflow with Python for Data Engineers (DE-WE-E-B2).pptx"*** presentation for the project.
+
+
+
+**Mini Project 2** : 
+**Enhanced ETL Workflow with Python, AWS S3, RDS, and Glue for Data Engineers** - This is the project folder inside which the code and the related files are present.
+
+***code***
+This folder contains:
+1. The python code ***"code.py"*** which will create the S3 bucket, upload files to S3 bucket, download them, perform the ETL process, upload the transformed file to S3 bucket and data to RDS.
+
+***logfiles***
+This folder contains:
+The log file capturing all the events happening in the process of ETL.
+
+***sourcefiles***
+This folder contains:
+All the source csv, json and xml files required for the ETL process.
+
+***processfiles***
+This folder contains:
+The csv, json and xml files which were downloaded from S3 bucket to perform the ETL process.
+
+***transformfiles***
+This folder contains:
+The transformed file ***"transformed_data.csv"*** after performing the ETL process.
+
+***Presentation***
+This Folder contains:
+1. The ***"Shalisri Kasturi V - Enhanced ETL Workflow with Python AWS (DE-WE-E-B2).pptx"*** presentation for the project.
