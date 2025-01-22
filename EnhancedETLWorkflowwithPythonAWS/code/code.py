@@ -228,7 +228,7 @@ check_s3_folder(bucket_name, transformed_folder_name)
 
 # If the folder in the s3 bucket is already present, then skip the step else create the folder
 if check_s3_folder(bucket_name,transformed_folder_name):
-    logging.info(f" The folder '{transformed_folder_name}' alredy exists in '{bucket_name}' bucket")
+    logging.info(f"The folder '{transformed_folder_name}' alredy exists in '{bucket_name}' bucket")
 else:
     folder_created = create_s3_folder(bucket_name,transformed_folder_name)
 
@@ -336,7 +336,7 @@ check_s3_folder(bucket_name, log_folder_name)
 
 # If the log folder in the s3 bucket is already present, then skip the step else create the folder
 if check_s3_folder(bucket_name,log_folder_name):
-    logging.info(f" The folder '{log_folder_name}' alredy exists in '{bucket_name}' bucket")
+    logging.info(f"The folder '{log_folder_name}' alredy exists in '{bucket_name}' bucket")
 else:
     folder_created = create_s3_folder(bucket_name,log_folder_name)
 
