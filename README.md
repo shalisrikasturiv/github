@@ -41,7 +41,7 @@ This Folder contains:
 
 
 
-**Mini Project 2** : 
+**Mini Project 3** : 
 **Enhanced ETL Workflow with Python, AWS S3, RDS, and Glue for Data Engineers** - This is the project folder inside which the code and the related files are present.
 
 ***code***
