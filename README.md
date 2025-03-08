@@ -67,3 +67,22 @@ The transformed file ***"transformed_data.csv"*** after performing the ETL proce
 ***Presentation***
 This Folder contains:
 1. The ***"Shalisri Kasturi V - Enhanced ETL Workflow with Python AWS (DE-WE-E-B2).pptx"*** presentation for the project.
+
+
+
+
+**Mini Project 4** : 
+**ServerLogDataExtraction** - This is the project folder inside which the code and the related files are present.
+
+***code***
+This folder contains:
+1. The python code ***"code.py"*** which will fetch data from a server log file, extract all email addresses along with their corresponding dates, and upload this data into a user history database.
+
+***sourcefile***
+This folder contains:
+The source file mbox.txt from which the user log data is to be extracted.
+
+
+***Presentation***
+This Folder contains:
+1. The ***"Shalisri Kasturi V - Server Log Data Extraction (DE-WE-E-B2).pptx"*** presentation for the project.
