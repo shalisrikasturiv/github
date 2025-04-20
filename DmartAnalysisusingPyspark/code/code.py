@@ -33,6 +33,7 @@ sales_df.show(5)
 # Perform necessary data cleaning and transformations on the DataFrames:
 
 # 1. Rename columns for consistency if needed
+# Rename all the columns with spaces to include _ instead of space
 customer_df = customer_df.withColumnRenamed("Customer ID", "Customer_ID") \
                          .withColumnRenamed("Customer Name", "Customer_Name")\
                          .withColumnRenamed("Postal Code", "Postal_Code")
@@ -65,7 +66,7 @@ def check_missing_values(df, df_name):
     missing_count.show()
 
     # Check if all missing value counts are 0
-    all_zero = missing_count.collect()[0]  # Collect the first (and only) row as a list
+    all_zero = missing_count.collect()[0]
     if all(value == 0 for value in all_zero):
         print(f"All columns in {df_name} have 0 missing values.")
     else:
@@ -103,12 +104,13 @@ customer_product_sales_df.show(10)
 # Task 4: Data Analysis and Querying
 # Formulate 10 analytical questions based on the integrated dataset
 
-# Register the final DataFrame as a temporary SQL table
+# Register the final DataFrame as a temporary SQL table (customer_product_sales)
 customer_product_sales_df.createOrReplaceTempView("customer_product_sales")
 
 # pip install setuptools
 
 # Streamlit App
+# Create a Streamlit app to run SQL queries on the DataFrame
 st.title("PySpark SQL Query App")
 query_option = st.selectbox(
     "Select a query to run:",
