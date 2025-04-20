@@ -86,3 +86,21 @@ The source file mbox.txt from which the user log data is to be extracted.
 ***Presentation***
 This Folder contains:
 1. The ***"Shalisri Kasturi V - Server Log Data Extraction (DE-WE-E-B2).pptx"*** presentation for the project.
+
+
+
+**Mini Project 5** : 
+**DmartAnalysisusingPyspark** - This is the project folder inside which the code and the related files are present.
+
+***code***
+This folder contains:
+1. The python code ***"code.py"*** which will read the 3 input csv files, convert them to Data Frames, make transformations to the Data Frames, load it to a table and perform SQL operations using Streamlit.
+
+***sourcefile***
+This folder contains:
+The source csv files of Customer, Product and Sales.
+
+
+***Presentation***
+This Folder contains:
+1. The ***"Shalisri Kasturi V - Dmart analysis using pyspark (DE-WE-E-B2).pptx"*** presentation for the project.
