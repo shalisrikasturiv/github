@@ -96,7 +96,7 @@ This Folder contains:
 This folder contains:
 1. The python code ***"code.py"*** which will read the 3 input csv files, convert them to Data Frames, make transformations to the Data Frames, load it to a table and perform SQL operations using Streamlit.
 
-***sourcefile***
+***input_files***
 This folder contains:
 The source csv files of Customer, Product and Sales.
 
